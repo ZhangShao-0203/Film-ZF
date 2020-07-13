@@ -5,6 +5,8 @@ public class text {
         System.out.println("3333");
         System.out.println("3333");
         System.out.println("3333");
+        System.out.println("3333");
+        System.out.println("3333");
 
     }
 }
