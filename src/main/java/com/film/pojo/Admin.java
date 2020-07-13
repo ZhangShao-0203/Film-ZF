@@ -4,8 +4,9 @@ import lombok.Data;
 
 @Data
 public class Admin {
-    private int Aid;
-    private String Aname;
-    private String Apass;
-    private String tec;
+
+    private int aid;
+    private String aname;
+    private String apass;
+    private String tel;
 }
