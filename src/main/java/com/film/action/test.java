@@ -5,6 +5,7 @@ public class test {
         System.out.println("zst");
         System.out.println("zst");
         System.out.println("zst");
+        System.out.println("zst");
 
     }
 }
