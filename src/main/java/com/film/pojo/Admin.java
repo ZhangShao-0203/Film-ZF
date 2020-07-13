@@ -4,7 +4,7 @@ import lombok.Data;
 
 @Data
 public class Admin {
-    private int Aid;
+    private int aid;
     private String Aname;
     private String Apass;
     private String tec;
