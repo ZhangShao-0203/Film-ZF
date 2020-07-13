@@ -39,12 +39,19 @@
       <version>5.4.10.Final</version>
     </dependency>
     <!--ojdbc依赖-->
+    <!--<dependency>
+      <groupId>com.oracle</groupId>
+      <artifactId>ojdbc6</artifactId>
+      &lt;!&ndash;<version>10.2.0.1.0</version>&ndash;&gt;
+      <version>11.2.0.3.0</version>
+    </dependency>-->
+
     <dependency>
       <groupId>com.oracle</groupId>
       <artifactId>ojdbc6</artifactId>
-      <!--<version>10.2.0.1.0</version>-->
-      <version>11.2.0.3.0</version>
+      <version>10.2.0.1.0</version>
     </dependency>
+
     <!--lombok自动生成get,set,tostring方法-->
     <dependency>
       <groupId>org.projectlombok</groupId>
