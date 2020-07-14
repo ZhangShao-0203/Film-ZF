@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="../css/amazeui.min.css" />
     <link rel="stylesheet" href="../css/admin.css" />
     <style>
-
+        
     </style>
 <body>
 <div class="dvcontent">
@@ -39,23 +39,15 @@
                             <table class="table" id="tbRecord">
                                 <thead>
                                 <tr>
-                                    <th>分类编号</th>
-                                    <th>分类名称</th>
-                                    <th>分类描述</th>
-                                    <th>备注</th>
+                                    <th>演员id</th>
+                                    <th>演员姓名</th>
+                                    <th>演员照片</th>
+                                    <th>类型</th>
                                     <th>编辑</th>
                                     <th>删除</th>
                                 </tr>
                                 </thead>
-                                <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>肉类</td>
-                                    <td> </td>
-                                    <td> </td>
-                                    <td class="edit"><button onclick="btn_edit(1)"><i class="icon-edit bigger-120"></i>编辑</button></td>
-                                    <td class="delete"><button onclick="btn_delete(1)"><i class="icon-trash bigger-120"></i>删除</button></td>
-                                </tr>
+                                <tbody id="show">
                                 </tbody>
 
                             </table>

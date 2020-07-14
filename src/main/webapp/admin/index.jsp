@@ -241,7 +241,7 @@
         <li class="limenuitem">
             <i class="icon-cog menuicon"></i>系统菜单<b class="arrow icon-angle-down arrow-down"></b>
             <ul class="ulleftsubitems">
-                <a href="../admin/type.jsp" target="right">
+                <a href="listActor.jsp" target="right">
                     <li>分类管理</li>
                 </a>
                 <a href="inventory.html" target="right">
@@ -264,7 +264,7 @@
         </li>
     </ul>
     <div style="position: absolute; left: 191px; right: 20px; ">
-        <iframe src="../admin/type.jsp" scrolling="no"  width="100%" height="1200" name="right" border="none"></iframe>
+        <iframe src="listActor.jsp" scrolling="no" width="100%" height="1200" name="right" border="none"></iframe>
     </div>
 </div>
 <script src="../js/jquery-1.7.2.min.js" type="text/javascript"></script>

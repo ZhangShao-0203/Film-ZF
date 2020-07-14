@@ -1,12 +1,15 @@
 package com.film.service.impl;
 
+import com.film.dao.IActorDao;
+import com.film.dao.IAdminDao;
 import com.film.pojo.Actor;
 import com.film.service.IActorService;
+import lombok.Data;
 
 import java.util.List;
-
+@Data
 public class ActorService implements IActorService {
-
+    IActorDao ActorDao;
     @Override
     public int add(Actor actor) {
         return 0;
