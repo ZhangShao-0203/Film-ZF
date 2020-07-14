@@ -8,11 +8,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+    <meta charset="UTF-8">
     <title>@ViewBag.Title</title>
-    <link href="${pageContext.request.contextPath}/css/Site.css" rel="stylesheet" type="text/css" />
-    <link href="${pageContext.request.contextPath}/css/zy.layout.css" rel="stylesheet" />
-    <link href="${pageContext.request.contextPath}/css/zy.form.css" rel="stylesheet" />
-    <link href="${pageContext.request.contextPath}/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="../css/Site.css" rel="stylesheet" type="text/css" />
+    <link href="../css/zy.layout.css" rel="stylesheet" />
+    <link href="../css/zy.form.css" rel="stylesheet" />
+    <link href="../css/font-awesome.min.css" rel="stylesheet" />
     <style type="text/css">
         .headerlitooleulsubitem_gray {
             background-Color: White;
@@ -210,7 +211,7 @@
             border: none;
         }
     </style>
-    <link href="${pageContext.request.contextPath}/css/zy.menu.css" rel="stylesheet" />
+    <link href="../css/zy.menu.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -240,7 +241,7 @@
         <li class="limenuitem">
             <i class="icon-cog menuicon"></i>系统菜单<b class="arrow icon-angle-down arrow-down"></b>
             <ul class="ulleftsubitems">
-                <a href="${pageContext.request.contextPath}/admin/type.jsp" target="right">
+                <a href="../admin/type.jsp" target="right">
                     <li>分类管理</li>
                 </a>
                 <a href="inventory.html" target="right">
@@ -263,12 +264,12 @@
         </li>
     </ul>
     <div style="position: absolute; left: 191px; right: 20px; ">
-        <iframe src="${pageContext.request.contextPath}/admin/type.jsp" scrolling="no"  width="100%" height="1200" name="right" border="none"></iframe>
+        <iframe src="../admin/type.jsp" scrolling="no"  width="100%" height="1200" name="right" border="none"></iframe>
     </div>
 </div>
-<script src="${pageContext.request.contextPath}/js/jquery-1.7.2.min.js" type="text/javascript"></script>
-<script src="${pageContext.request.contextPath}/js/plugs/Jqueryplugs.js" type="text/javascript"></script>
-<script src="${pageContext.request.contextPath}/js/_layout.js"></script>
+<script src="../js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="../js/plugs/Jqueryplugs.js" type="text/javascript"></script>
+<script src="../js/_layout.js"></script>
 
 
 
