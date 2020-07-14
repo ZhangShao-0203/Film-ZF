@@ -7,5 +7,6 @@ public class Video {
 
     private int viid;
     private String viname;
+    private int cid;
 
 }

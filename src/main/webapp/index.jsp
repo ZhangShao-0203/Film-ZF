@@ -82,7 +82,6 @@
 </head>
 <body>
 
-
 <div class="header">
     <div class="header-inner">
         <h1><a href="//maoyan.com" class="logo" data-act="icon-click"></a></h1>
@@ -115,6 +114,8 @@
                 <span class="caret"></span>
                 <ul class="user-menu no-login-menu">
                     <li><a href="/login.jsp">登录</a></li>
+                    <a href="admin/index.jsp">guanliyuan</a>
+
                 </ul>
             </div>
         </div>
