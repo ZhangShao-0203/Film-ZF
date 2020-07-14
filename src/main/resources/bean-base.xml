@@ -52,5 +52,7 @@
         <aop:advisor advice-ref="txAdvince" pointcut-ref="pc"></aop:advisor>
     </aop:config>
 
-
+    <bean id="adminAction" class="com.film.action.AdminAction" scope="prototype"></bean>
+    <bean id="adminService" class="com.film.service.impl.AdminService"></bean>
+    <bean id="adminDao" class="com.film.dao.impl.AdminDao" ></bean>
 </beans>

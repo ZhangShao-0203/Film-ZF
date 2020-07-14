@@ -2,10 +2,13 @@ package com.film.dao.impl;
 
 import com.film.dao.IAdminDao;
 import com.film.pojo.Admin;
+import lombok.Data;
+import org.hibernate.SessionFactory;
 
 import java.util.List;
-
+@Data
 public class AdminDao implements IAdminDao {
+    private SessionFactory sessionFactory;
     @Override
     public int add(Admin admin) {
         return 0;

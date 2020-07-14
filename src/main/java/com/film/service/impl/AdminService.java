@@ -1,15 +1,17 @@
 package com.film.service.impl;
 
+import com.film.dao.IAdminDao;
 import com.film.pojo.Admin;
 import com.film.service.IAdminService;
+import lombok.Data;
 
 import java.util.List;
-
+@Data
 public class AdminService implements IAdminService {
-
+    IAdminDao adminDao;
     @Override
     public int add(Admin admin) {
-        return 0;
+        return adminDao.add(admin);
     }
 
     @Override
