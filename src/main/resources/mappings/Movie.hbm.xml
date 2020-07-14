@@ -9,5 +9,16 @@
                 <param name="sequence_name">PRO_REQ</param>
             </generator>
         </id>
+        <property name="mnamec"></property>
+        <property name="mnamee"></property>
+        <property name="msort"></property>
+        <property name="mleng"></property>
+        <property name="uptime"></property>
+        <property name="details"></property>
+        <property name="photo"></property>
+        <set name="actors" table="MOVIE_ACTOR" lazy="false">
+            <key column="mid"></key>
+            <many-to-many column="acid" class="Actor"></many-to-many>
+        </set>
     </class>
 </hibernate-mapping>

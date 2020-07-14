@@ -9,4 +9,5 @@ public class Admin {
     private String aname;
     private String apass;
     private String tel;
+
 }

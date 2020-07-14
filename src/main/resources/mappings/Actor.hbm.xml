@@ -12,5 +12,9 @@
         <property name="acname"></property>
         <property name="acphoto"></property>
         <property name="acsort"></property>
+        <set name="movies" lazy="false" table="MOVIE_ACTOR">
+            <key column="acid"></key>
+            <many-to-many column="mid" class="Movie"></many-to-many>
+        </set>
     </class>
 </hibernate-mapping>

@@ -1,8 +1,13 @@
 package com.film.pojo;
 
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
-@Data
+import java.util.Set;
+
+@Getter
+@Setter
 public class Movie {
 
     private int mid;
@@ -13,6 +18,6 @@ public class Movie {
     private String uptime;
     private String details;
     private String photo;
-    private int acid;
+    Set<Actor> actors;
 
 }
