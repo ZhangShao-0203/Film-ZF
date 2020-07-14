@@ -51,7 +51,7 @@
         </tx:attributes>
     </tx:advice>
     <aop:config>
-        <aop:pointcut id="pc" expression="execution(* com.film.service.impl.*.*(..))"></aop:pointcut>
+        <aop:pointcut id="pc" expression="execution(* com.film.service.impl.*.*(..))"/>
         <aop:advisor advice-ref="txAdvince" pointcut-ref="pc"></aop:advisor>
     </aop:config>
 
